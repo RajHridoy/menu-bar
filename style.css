@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/matteus-silva.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.menu-bar {
+    background: darkgreen;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+
+.menu-bar ul li {
+    width: 140px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: red;
+    border-radius: 3px;
+}
+
+.menu-bar,
+.fa-solid {
+    margin-right: 10px;
+}
